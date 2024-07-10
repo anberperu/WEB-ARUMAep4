@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTO</title>
+    <link rel="stylesheet" href="pagina-4.css">
+</head>
+<body>
+    <header class="main-header">
+
+        <div class="logo">
+            <a href="../pagina 1/pagina-1.html" target="_blank">
+                <img src="img/aruma-logo.png" alt="Aruma">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <ul>
+                    <li><a href="../pagina 2/pagina-2.html" target="_blank">CATEGORÍAS</a></li>
+                    <li><a href="../pagina 3/pagina-3.html" target="_blank">SHAMPOO</a></li>
+                    <li><a href="../pagina 4/pagina-4.html" target="_blank">PRODUCTO</a></li>
+                    <li><a href="../pagina 5/pagina-5.html" target="_blank">PAGO</a></li>
+                </ul>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+
+    </header>
+    <br><br>
+    <div class="container">
+        <div class="product-main">
+            <div class="product-images">
+                <div id="Crema"><img  src="img/crema-hidratante.jpg" alt="Producto Principal"></div>
+                
+            </div>
+            <div class="product-details">
+                <h1>Absolut Repair - Garnier SkinActive</h1>
+                <p>Descripción breve del producto. Este es un ejemplo de cómo podría ser una descripción del producto en esta sección.</p>
+                <div class="price">S/. 35</div>
+                <div class="Cantidad">
+                    <label for="Cantidad">Cantidad:</label>
+                    <input type="number" id="Cantidad" name="Cantidad" min="1" value="1">
+                </div>
+                <button class="btn">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="tabs">
+            <div class="active">Descripción</div>
+            <div>Detalles</div>
+            <div>Reseñas</div>
+        </div>
+        <div class="tab-contenido active">
+            <h2>Descripción</h2>
+            <p>Descripción detallada del producto. Aquí se explica cómo usar el producto, sus beneficios y otros detalles relevantes.</p>
+            
+        </div>
+        <div class="tab-contenido">
+            <h2>Detalles</h2>
+            <p>Información adicional sobre el producto, ingredientes, etc.</p>
+        </div>
+        <div class="tab-contenido">
+            <h2>Reseñas</h2>
+            <p>Comentarios y opiniones de los usuarios sobre el producto.</p>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>MI CUENTA</h4>
+                <ul>
+                    <li><a href="#">Crear cuenta</a></li>
+                    <li><a href="#">Ingresar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>NOSOTROS</h4>
+                <ul>
+                    <li><a href="#">Nuestra historia</a></li>
+                    <li><a href="#">Ubícanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>CONTÁCTANOS</h4>
+                <ul>
+                    <li><a href="mailto:info@aruma.pe">info@aruma.pe</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>LEGAL & COOKIES</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <input type="email" placeholder="Ingresa tu correo">
+                <button>REGISTRARME</button>
+            </div>
+            <div class="footer-icons">
+                <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="img/whatsapp-icon.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Script para cambiar entre pestañas
+        const tabs = document.querySelectorAll('.tabs div');
+        const contents = document.querySelectorAll('.tab-contenido');
+        
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                contents.forEach(c => c.classList.remove('active'));
+                contents[index].classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

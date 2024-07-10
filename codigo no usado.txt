@@ -1,0 +1,107 @@
+<main>
+        <section class="caja-contenedora-principal">
+            <div class="contenedor-de-titulo">
+                <h2>
+                    TÍTULO
+                </h2>
+            </div>
+            <div class="tres-subtitulos">
+                <ul>
+                    <li>SUBTÍTULO</li>
+                    <li>SUBTÍTULO</li>
+                    <li>SUBTÍTULO</li>
+                </ul>
+            </div>
+            <section class="caja-de-imagenes">
+                <!--PRIMER CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p>
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--SEGUNDO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--TERCER CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--CUARTO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--QUINTO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--SEXTO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--SÉPTIMO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--OCTAVO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+                <!--NOVENO CUADRADO-->
+                <div class="imagen-con-nombre">
+                    <img src="Imágenes-categoría/25646.jpg" alt="">
+                    <h3 class="producto">
+                        PRODUCTO
+                    </h3>
+                    <p class="descripcion">
+                        DESCRIPCIÓN
+                    </p>
+                </div>
+            </section>
+        </section>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGO</title>
+    <link rel="stylesheet" href="css/pagina-5.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="../pagina 1/pagina-1.html" target="_blank">
+                <img src="imagenes/aruma.png" alt="Aruma">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <li><a href="../pagina 2/pagina-2.html" target="_blank">CATEGORÍAS</a></li>
+                    <li><a href="../pagina 3/pagina-3.html" target="_blank">SHAMPOO</a></li>
+                    <li><a href="../pagina 4/pagina-4.html" target="_blank">PRODUCTO</a></li>
+                    <li><a href="../pagina 5/pagina-5.html" target="_blank">PAGO</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
+    <main>
+        <section class="payment-section">
+            <div class="form-container">
+                <h2>Método de pago con tarjeta</h2>
+                <label for="card-type">Tipo de tarjeta</label>
+                <div class="payment-method">
+                    <img src="imagenes/visa.png" alt="Visa" class="payment-option">
+                    <img src="imagenes/mastercard.png" alt="Mastercard" class="payment-option">
+                    <img src="imagenes/paypal.png" alt="Paypal" class="payment-option">
+                    <img src="imagenes/gpay.png" alt="GPay" class="payment-option">
+                </div>
+                <form action="#">
+                    <label for="card-number">Número de tarjeta de crédito</label>
+                    <input type="text" id="card-number" name="card-number">
+                    
+                    <label for="expiry-date">Fecha de expiración</label>
+                    <input type="text" id="expiry-date" name="expiry-date">
+                    
+                    <label for="security-code">Código de seguridad</label>
+                    <input type="text" id="security-code" name="security-code">
+                    
+                    <h2>Detalles de envío:</h2>
+                    <label for="name">Nombres</label>
+                    <input type="text" id="name" name="name">
+                    
+                    <label for="surname">Apellidos</label>
+                    <input type="text" id="surname" name="surname">
+                    
+                    <label for="phone">Celular</label>
+                    <input type="text" id="phone" name="phone">
+                    
+                    <label for="address">Dirección</label>
+                    <input type="text" id="address" name="address">
+                    
+                    <label for="city">Ciudad</label>
+                    <input type="text" id="city" name="city">
+                    
+                    <label for="province">Provincia</label>
+                    <input type="text" id="province" name="province">
+                    
+                    <label for="postal-code">Postal</label>
+                    <input type="text" id="postal-code" name="postal-code">
+                    
+                    <div class="terms">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">Por favor acepta los términos y condiciones</label>
+                    </div>
+                    
+                    <button type="submit">Finalizar compra</button>
+                </form>
+            </div>
+            <div class="product-container">
+                <div class="product-details">
+                    <img src="imagenes/producto.png" alt="Producto">
+                    <div class="product-info">
+                        <p>ID: 128456</p>
+                        <p>Shampoo Recamier dúo (Shampoo y acondicionador)</p>
+                        <p>S/45.00</p>
+                        <p>Shampoo y acondicionador profesional para el control del frizz y cabello liso y suave.</p>
+                        <p>Cantidad: 1</p>
+                    </div>
+                </div>
+                <div class="discount-section">
+                    <label for="discount-code">Código de descuento</label>
+                    <input type="text" id="discount-code" name="discount-code">
+                    <button type="button">Aplicar</button>
+                </div>
+                <div class="price-summary">
+                    <p>Subtotal: S/45.00</p>
+                    <p>Costo de envío: S/7.00</p>
+                    <p>Descuento: -S/5.00</p>
+                    <p><strong>TOTAL: S/47.00</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>MI CUENTA</h4>
+                <ul>
+                    <li><a href="#">Crear cuenta</a></li>
+                    <li><a href="#">Ingresar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>NOSOTROS</h4>
+                <ul>
+                    <li><a href="#">Nuestra historia</a></li>
+                    <li><a href="#">Ubícanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>CONTÁCTANOS</h4>
+                <ul>
+                    <li><a href="mailto:info@aruma.pe">info@aruma.pe</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>LEGAL & COOKIES</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <input type="email" placeholder="Ingresa tu correo">
+                <button>REGISTRARME</button>
+            </div>
+            <div class="footer-icons">
+                <a href="#"><img src="imagenes/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="imagenes/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="imagenes/whatsapp-icon.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+    <p>WILSON JUNIOS AGUILAR SAAVEDRA</p>
+</body>
+</html>
